@@ -4,8 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- cyber security courses, cyber security jobs, australian cyber security centre, cyber security salary, what is cyber security, cyber security course, cyber security job, jobs in cyber security, cyber security australia, cyber security certification, bachelor of cyber security, cyber security courses online, cyber security jobs melbourne, cyber security analyst, master of cyber security, online cyber security courses, government funded cyber security courses, cyber security training, tafe cyber security, cyber security certifications, cyber security companies, cyber security news, certification for cyber security, graduate certificate in cyber security, cyber security jobs sydney, certified cyber security, cyber security tafe, cyber security degree, graduate certificate cyber security, grad cert cyber security, cyber security analyst salary, diploma in cyber security, certificate iv in cyber security, diploma of cyber security, cyber security analysts salary, certificate cyber security, certifications cyber security, australian cyber security, free cyber security courses, essential 8 cyber security, cyber security diploma, certifications in cyber security, optus cyber security breach, cyber security conferences, cyber security jobs perth, cert 4 cyber security, cyber security online courses, australia cyber security, cyber security courses melbourne, cert iv cyber security, cyber security course online, cyber security policy, cyber security consultant, cyber security consulting, cyber security strategy, certificates in cyber security, ecu cyber security, cyber security threats, cyber security jobs brisbane, optus cyber security, rmit cyber security, cyber security salary australia, cyber security jobs salary, cyber security jobs adelaide, cyber security ecu, unsw cyber security, network security and cyber security, certificates for cyber security, cyber security bootcamp, why is cyber security important, cyber security awareness, is cyber security hard, cyber security companies australia, cyber security definition, cyber security certificate, importance of cyber security, cyber security summit, cyber security jobs australia, entry level cyber security salary australia, cyber security nsw, cyber security meaning, cyber security courses tafe, cyber security jobs in australia, diploma cyber security, cyber security career, cyber security engineer, cyber security entry level jobs, cert 4 in cyber security, masters in cyber security, cyber security unsw, cyber security insurance, cyber security traineeship, cyber security masters, cyber security company australia, cyber security courses australia, cyber security online course, certificate 4 in cyber security, certificate in cyber security, cyber security study -->
-
+  <!-- Homepage -->
   <url>
     <loc>https://cybersecured.au/</loc>
     <lastmod>2023-07-30T08:53:48+00:00</lastmod>
@@ -13,28 +12,61 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Robots.txt -->
   <url>
     <loc>https://cybersecured.au/robots.txt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
+  <!-- Main WebP Graphic -->
+  <url>
+    <loc>https://cybersecured.au/Graphics/main.webp</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- App URL -->
+  <url>
+    <loc>https://app.cybersecured.au</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- About Page -->
   <url>
     <loc>https://cybersecured.au/#about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Services Page -->
   <url>
     <loc>https://cybersecured.au/#services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- Contact Page -->
   <url>
     <loc>https://cybersecured.au/#contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- Individual URLs for Important Pages -->
+  <url>
+    <loc>https://cybersecured.au/cyber-security-courses</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://cybersecured.au/cyber-security-jobs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Add more individual URLs for other important pages -->
 
 </urlset>
