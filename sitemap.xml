@@ -20,19 +20,19 @@
   </url>
 
   <url>
-    <loc>https://cybersecured.au/about</loc>
+    <loc>https://cybersecured.au/#about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://cybersecured.au/services</loc>
+    <loc>https://cybersecured.au/#services</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://cybersecured.au/contact</loc>
+    <loc>https://cybersecured.au/#contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
