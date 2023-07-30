@@ -1,3 +1,29 @@
+     body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            border-radius: 0;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-item {
+            margin-left: 10px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107;
+        }
+
 h1, h2, h3, h4, h5, h6 {
     font-style: inherit
 }
