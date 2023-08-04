@@ -1,3 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+    .container p {
+        margin-bottom: 20px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+.elementor-widget-image-box .elementor-image-box-content {
+    width: 100%
+}
+
+@media (min-width:768px) {
+    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper, .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+        display: flex
+    }
+
+    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+        text-align: right;
+        flex-direction: row-reverse
+    }
+
+    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
+        text-align: left;
+        flex-direction: row
+    }
+
+    .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
+        margin: auto
+    }
+
+    .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+        align-items: flex-start
+    }
+
+    .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
+        align-items: center
+    }
+
+    .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
+        align-items: flex-end
+    }
+}
+
+@media (max-width:767px) {
+    .elementor-widget-image-box .elementor-image-box-img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 15px
+    }
+}
+
+.elementor-widget-image-box .elementor-image-box-img {
+    display: inline-block
+}
+
+.elementor-widget-image-box .elementor-image-box-title a {
+    color: inherit
+}
+
+.elementor-widget-image-box .elementor-image-box-wrapper {
+    text-align: center
+}
+
+.elementor-widget-image-box .elementor-image-box-description {
+    margin: 0
+}
+.elementor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.elementor-column {
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+    .elementor-column:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+.icon {
+    font-size: 30px;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.number-wrapper {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.suffix {
+    font-size: 16px;
+}
+
+.super {
+    font-size: 12px;
+    vertical-align: super;
+}
 
 .center-container {
     display: flex;
