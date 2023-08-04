@@ -1,4 +1,100 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+   
+ /* Custom Styles for Footer */
+
+    .site-footer {
+        background-color: #333;
+        color: #fff;
+    }
+
+    .site-footer a {
+        color: #fff;
+    }
+
+    .site-footer a:hover {
+        color: #ffc107;
+    }
+
+    .social-links li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #mainservice {
+        background-color: #f8f9fa;
+    }
+
+    #contact h2 {
+        color: #333;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    #contact form {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #contact form label {
+        font-size: 18px;
+        color: #555;
+        font-weight: bold;
+    }
+
+    #contact form input[type="email"],
+    #contact form textarea {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact form button[type="submit"] {
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 20px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+    #contact form button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    
+
+     body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            border-radius: 0;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-item {
+            margin-left: 10px;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107;
+        }
 
 h1, h2, h3, h4, h5, h6 {
     font-style: inherit
@@ -15,6 +111,36 @@ body, p, ul {
 #masthead .wrap, .elementor-section, .elementor-widget-highlighted-text .ui-e-headline-text, .fa-ul > li, .gb_nav_menu li, .has-inline-mobile-toggle #site-navigation.has-active-search .nav-search-active, .inside-navigation, .main-navigation .menu-bar-item, .main-navigation li, .search-form, .site-header, .uicore-grid-item article, .uicore-widget form, .widget_search form, .wp-caption img, blockquote {
     position: relative
 }
+
+.gb_nav_menu ul ul ul, .main-navigation:not(.toggled) ul ul li.sfHover > ul, .main-navigation:not(.toggled) ul ul li:hover > ul, .sidebar .main-navigation.sub-menu-right ul li.sfHover ul, .sidebar .main-navigation.sub-menu-right ul li:hover ul {
+    left: 100%;
+    top: 0
+}
+
+.comments-area .comment-list .comment-meta .comment-author .fn a, .main-navigation a, .site-branding a, a, a:active, a:hover, abbr[title], ins, mark, nav a {
+    text-decoration: none
+}
+
+.custom-logo-link, .site-header .header-image, .uicore-social-icon:before {
+    vertical-align: middle
+}
+
+html {
+    -webkit-text-size-adjust: 100%
+}
+
+progress, sub, sup {
+    vertical-align: baseline
+}
+
+.entry-header, .main-title, .site-content, pre {
+    word-wrap: break-word
+}
+
+blockquote, select {
+    background-repeat: no-repeat
+}
+
 .uicore-blog .uicore-post-content:not(.uicore-archive) .entry-content, body {
     --uicore-typography--h1-f: var(--e-global-typography-uicore_primary-font-family);
     --uicore-typography--h1-w: 600;
@@ -105,6 +231,10 @@ html {
     box-sizing: border-box
 }
 
+.cat-links, .close-search .icon-search svg:nth-child(2), .comments-link, .gb_nav_menu ul li:hover > ul, .main-navigation ul ul a, .main-navigation.toggled .main-nav > ul, .posted_in, .sticky, .tags-links, .toggled .icon-menu-bars svg:nth-child(2), .uicore-pagination ul li a, .uicore-pagination ul li span, .uicore-widget .gallery .gallery-item a, article, aside, details, figcaption, figure, footer, footer.entry-meta .byline, footer.entry-meta .posted-on, header, main, menu, nav, section {
+    display: block
+}
+
 *, ::after, ::before {
     box-sizing: inherit
 }
@@ -138,6 +268,10 @@ body, button, input, select, textarea {
     body, input, input[type=checkbox] + label, input[type=radio] + label, select, textarea {
         font-weight: 400
     }
+
+.main-title, .paging-navigation .nav-links .current, .uicore-widget #wp-calendar tbody a, .uicore-widget #wp-calendar tfoot, .wp-block-quote, b, strong, th {
+    font-weight: 700
+}
 
 p {
     font-size: 1.2rem
